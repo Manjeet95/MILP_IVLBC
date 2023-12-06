@@ -9,8 +9,8 @@ Arguments:
 7. possilbe/impossible differential characteritics
 8. Solver to be used (GUROBI/CPLEX)
 (if you are changing the code for anothe cipher then please change no. of ineq. in line 247 and 382)
-python IVLBC_1.py 64 11 1 2 no_fix 1 possible GUROBI 
-python IVLBC_1.py 64 5 1 2 fix 1 impossible CPLEX
+python IVLBC.py 64 11 1 2 no_fix 1 possible GUROBI 
+python IVLBC.py 64 5 1 2 fix 1 impossible CPLEX
 '''
 
 import string
